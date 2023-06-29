@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(https://uploads-ssl.webflow.com/5f5145eb46974e52ee487611/631f3050dc93585ce8bcd83e_Dark-Aurora-Artboard.svg);
+	max-width: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: white;
+	line-height: 20px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+img.image-compact {
+	display: block;
+	text-align: left;
+	flex: 0 auto;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	width: 100vw;
+	background-color: #20202c !important;
+	border-bottom: 1px rgba(255, 255, 255, 0.1);
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 15px 30px 15px 10px;
+	display: flex;
+}
+
+nav ul li.nav-item a.nav-link {
+	color: white;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 12px;
+}
+
+.nav-link {
+	margin-right: 10px;
+	padding: 12px 0;
+}
+
+.nav-link:hover {
+	color: #fff;
+	box-shadow: 0 5px #fc0a7e;
+}
+
+#roundPillElement {
+	width: 150px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-bottom: none;
+	text-align: center;
+	background-color: rgba(91, 88, 79, 0.5);
+	border-radius: 20px;
+}
+
+#roundPillElement:hover {
+	color: #ff3278;
+	background-color: #fff;
+	box-shadow: 0px 0px;
+}
+
+div.imageCenter {
+	height: 650px;
+	background-image: url("landing_page_img.jpg");
+	background-position: 40%;
+	background-size: cover;
+	margin-bottom: 40px;
+}
+
+.card-img {
+	padding-left: 30px;
+}
+
+.heading {
+	font-size: 4vh;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+
+div.formDiv,
+.formDiv h5 {
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+}
+
+.formDiv h6 {
+	font-size: x-small;
+	color: gray;
+}
+
+form {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: xx-small;
+	font-weight: 600;
+}
+
+.formDiv {
+	padding: 0px 70px 0px 60px;
+}
+
+.formDiv input,
+.formDiv select {
+	color: white;
+	background-color: #191603;
+	border: 1px solid #f67a5c52 !important;
+	font-size: x-small;
+	border-radius: 10px;
+	margin: 0.75px;
+	margin-bottom: 5px;
+	height: 38px;
+	padding-left: 10px;
+}
+
+.formDiv input:focus,
+.formDiv select:focus {
+	background-color: #1d1903;
+	color: white;
+	outline: none;
+}
+
+.form-label {
+	margin: 5px 0px 0px 0px;
+}
+
+.formDiv label,
+button {
+	float: left;
+	font-size: 12px;
+}
+
+button.btn {
+	font-size: xx-small;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 12px 40px 12px 40px;
+	margin-top: 10px;
+	border-width: 0px;
+	color: white;
+	background-color: rgba(91, 88, 79, 0.5);
+}
+
+button.btn:hover {
+	color: #ff3278;
+	background-color: white;
+}
+
+div.contpad {
+	padding: 0px 10px 0px 10px;
+}
+
+div.cardDiv h1.h1 {
+	color: white;
+	font-size: 56px;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.cardDiv {
+	overflow-x: hidden;
+	justify-content: center;
+	padding: 20px 10px 40px 40px;
+}
+
+.card {
+	width: 23%;
+	border-width: 0px;
+	border-radius: 15px;
+	background-color: rgba(49, 49, 49, 0.37);
+	margin: 0px 0.9% 40px 0px;
+}
+
+.card-text {
+	color: rgba(255, 255, 255, 0.65);
+	font-family: "Montserrat", sans-serif;
+	font-size: x-small;
+}
+
+.card-img-top {
+	border-width: 0px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin: 0px;
+}
+
+div.cont5 {
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+div.colpadlr {
+	padding: 0px 25px 0px 60px;
+}
+
+div.cont5 p.subheading {
+	font-size: 16px;
+	opacity: 0.6;
+	padding-top: 10px;
+}
+
+div.cont5 h1 {
+	font-size: 56px;
+	font-weight: 700;
+	font-family: Inter, sans-serif;
+}
+
+h1.underline-style::after {
+	display: block;
+	content: "";
+	width: 20%;
+	height: 1px;
+	background: currentColor;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.imageCol {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.imageCol img {
+	max-width: 95%;
+	height: auto;
+}
+
+.image-whyUs {
+	border-radius: 15px;
+	margin-bottom: 15px;
+	box-shadow: 10px 10px 16px 2px rgba(0, 0, 0, 0.65);
+}
+
+div.col-md div.col-md-6 {
+	float: left;
+	width: 45%;
+	background-color: #3131315e !important;
+	color: white;
+	border-radius: 12px;
+	padding: 20px 0px 20px 0px;
+	margin: 0px 10px 20px 0px;
+}
+
+.col-md .card-body .card-text {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Poppins, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	transform: perspective(100px);
+	line-height: 30px;
+}
+
+div.col-md.imageCol {
+	padding: 0px 30px 0px 0px;
+}
+
+div.cont5 p {
+	margin-bottom: 5%;
+}
+
+.icon-image {
+	height: 50px;
+	width: 50px;
+}
+
+footer.divider-line {
+	display: block;
+	margin-top: 20px;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: rgba(255, 255, 255);
+}
+
+footer img.image-footer {
+	height: 4.5rem;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+	div.imageCenter {
+		display: none;
+	}
+	.nav-link:hover {
+		display: none;
+	}
+	nav.navbar div.container-fluid {
+		padding-right: 0px;
+	}
+	.navbar-brand {
+		margin-right: 0px;
+	}
+	.navbar-toggler {
+		border: 1px #20202c;
+	}
+	.navbar-toggler span.navbar-toggler-icon {
+		float: right;
+		width: 0.75em;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.card {
+		width: 46%;
+		margin-bottom: 10px;
+	}
+	.navbar {
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.navbar {
+		padding-right: 0px;
+	}
+	nav.navbar div.container-fluid {
+		padding: 0px 0px 0px 10px;
+	}
+	.formDiv {
+		padding: 20px 20px 0px 20px;
+	}
+	.cardDiv {
+		padding: 0;
+	}
+	.card {
+		width: 92%;
+		margin: 0px 0px 20px 15px;
+	}
+	img.image-compact {
+		width: 90%;
+	}
+	div.col-md div.col-md-6 {
+		width: 84%;
+	}
+}
