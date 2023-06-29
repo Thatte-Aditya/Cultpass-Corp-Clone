@@ -3,6 +3,7 @@
 Features - 
 
 Responsive Design: The webpage is designed to be fully responsive, ensuring a seamless user experience across different devices and screen sizes.
+
 Navigation Menu: The clone includes a navigation menu that allows users to easily navigate through different sections of the webpage.
 
 Technologies Used - 
